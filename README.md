@@ -1,7 +1,7 @@
 # openshift-kvm
 How to build an openshift origin cluster on Ubuntu using kvm
 
-- Verify that hardware virtualization is enabled (needs to return greater that 0):
+- Verify that hardware virtualization is enabled (needs to return greater than 0):
 
 ```egrep -c '(svm|vmx)' /proc/cpuinfo```
  
